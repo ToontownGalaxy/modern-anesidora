@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: Nuitka
+Version: 0.6.10
+Summary: Python compiler with full language support and CPython compatibility
+Home-page: https://nuitka.net
+Author: Kay Hayen
+Author-email: Kay.Hayen@gmail.com
+License: Apache License, Version 2.0
+Description: UNKNOWN
+Keywords: compiler,python,nuitka
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Compilers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: System :: Software Distribution
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: C
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: BSD :: FreeBSD
+Classifier: Operating System :: POSIX :: BSD :: NetBSD
+Classifier: Operating System :: POSIX :: BSD :: OpenBSD
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: License :: OSI Approved :: Apache Software License

@@ -1,0 +1,83 @@
+*.bak
+*.interim
+*._0
+.vscode/settings.json
+etc/local.prc
+TUDS-1-anydbm.dat
+*.jpg
+useropt
+*.trackRecords
+*.jackpot
+TUDS-1-anydbm
+
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Log Files
+*.log
+
+# Database
+*.yaml
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+#Compiled Python Files
+#*.pyo
+#Compiled Game Files and Folders
+*.mf
+*.bin
+/build
+
+# Windows shortcuts
+*.lnk
+
+.idea
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+*.pyc
+*.lock
+*.db
+user/preferences.json
+*.mp
+settings.json
+*.pyc
+news/
+*.buildings
+built/*
+src/
+user/ttgsettings.json
+ToontownStart.build/
+ToontownStart.dist/

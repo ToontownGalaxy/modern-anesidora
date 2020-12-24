@@ -1,0 +1,87 @@
+daemon:
+    name: Developer Cluster
+
+general:
+    eventlogger: 127.0.0.1:7198
+    dc_files:
+        - ../../../etc/otp.dc
+        - ../../../etc/toon.dc
+
+messagedirector:
+    bind: 127.0.0.1:7100
+
+uberdogs:
+
+    - class: CentralLogger
+      id: 4688
+      anonymous: false
+
+    - class: AvatarFriendsManager
+      id: 4686
+      anonymous: true
+
+    - class: TTPlayerFriendsManager
+      id: 4687
+      anonymous: false
+      
+    - class: TTFriendsManager
+      id: 4699
+      anonymous: false
+
+    - class: TTSpeedchatRelay
+      id: 4712
+      anonymous: false
+
+    - class: DistributedDeliveryManager
+      id: 4683
+      anonymous: false
+
+    - class: TTCodeRedemptionMgr
+      id: 4695
+      anonymous: false
+
+    - class: AstronLoginManager
+      id: 4670
+      anonymous: true
+
+    - class: FriendManager
+      id: 4501
+      anonymous: false
+
+    - class: ChatRouter
+      id: 4681
+      anonymous: false
+
+roles:
+    - type: clientagent
+      bind: 0.0.0.0:6667
+      version: "sv1.0.47.38"
+      client:
+       relocate: true
+       add_interest: enabled
+       heartbeat_timeout: 60000
+      channels:
+        min: 1000000000
+        max: 1000001000
+
+    - type: stateserver
+      control: 4002
+
+    - type: database
+      control: 4003
+      generate:
+        min: 100000000
+        max: 399999999
+      backend:
+        type: yaml
+        directory: ../databases/astrondb
+
+    - type: dbss
+      database: 4003
+      ranges:
+        - min: 100000000
+          max: 399999999
+
+    - type: eventlogger
+      bind: 127.0.0.1:7198
+      output: ../logs/events-%y%m%d_%H%M%S.log
