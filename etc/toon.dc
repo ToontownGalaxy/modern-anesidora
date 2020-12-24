@@ -3175,7 +3175,7 @@ struct RaceRecord {
 
 dclass DistributedLeaderBoard : DistributedObject {
   setPosHpr(int16/10, int16/10, int16/10, int16/10, int16/10, int16/10) required broadcast ram;
-  setDisplay(string, string, RaceRecord[10]) broadcast ram;
+  setDisplay(blob) broadcast ram;
 };
 
 dclass DistributedDeliveryManager : DistributedObject {
