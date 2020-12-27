@@ -4,7 +4,6 @@
 .vscode/settings.json
 etc/local.prc
 TUDS-1-anydbm.dat
-*.jpg
 useropt
 *.trackRecords
 *.jackpot
