@@ -7,7 +7,7 @@ from toontown.toon import InventoryBase
 from toontown.battle import DistributedBattleFinalAI
 from toontown.building import SuitPlannerInteriorAI
 from toontown.battle import BattleBase
-from pandac.PandaModules import *
+from panda3d.core import *
 from . import SuitDNA
 import random
 

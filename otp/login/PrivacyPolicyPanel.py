@@ -1,5 +1,5 @@
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.otpbase.OTPGlobals import *
 from direct.gui.DirectGui import *
 from .MultiPageTextFrame import *

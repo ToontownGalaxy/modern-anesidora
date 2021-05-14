@@ -1,5 +1,5 @@
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from . import ToonHood
 from toontown.town import BRTownLoader
 from toontown.safezone import BRSafeZoneLoader

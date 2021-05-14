@@ -1,4 +1,4 @@
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.movement.PyVec3 import PyVec3
 from direct.showbase.PythonUtil import startProfile
 from direct.ffi.FFIExternalObject import FFIExternalObject
@@ -69,7 +69,7 @@ def doProfile(cmd, filename):
 """
 profiling
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.movement import ProfVec
 
 ProfVec.doProfile('ProfVec.nullLoop()', 'nullLoop.prof')

@@ -1,5 +1,5 @@
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 from . import Playground
 from direct.task.Task import Task

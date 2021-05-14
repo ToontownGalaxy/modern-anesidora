@@ -3,13 +3,13 @@
 import os, sys, socket, random
 from urllib.parse import quote_plus
 
-from pandac.PandaModules import HTTPClient
-from pandac.PandaModules import HTTPCookie
-from pandac.PandaModules import URLSpec
-from pandac.PandaModules import Ramfile
-from pandac.PandaModules import Ostream
-from pandac.PandaModules import HTTPDate
-from pandac.PandaModules import DocumentSpec
+from panda3d.core import HTTPClient
+from panda3d.core import HTTPCookie
+from panda3d.core import URLSpec
+from panda3d.core import Ramfile
+from panda3d.core import Ostream
+from panda3d.core import HTTPDate
+from panda3d.core import DocumentSpec
 from direct.task.Task import Task
 
 from direct.directnotify.DirectNotifyGlobal import directNotify

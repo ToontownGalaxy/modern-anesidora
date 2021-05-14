@@ -2,7 +2,7 @@
 # It's important to import PandaModules first, in particular before
 # importing Task, because once PandaModules is imported, Task.py can
 # find pandac.pandaexpressModules.
-from pandac.PandaModules import *
+from panda3d.core import *
 
 import string
 from direct.showbase.MessengerGlobal import *

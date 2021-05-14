@@ -3,7 +3,7 @@
 # Created: October 21, 2009
 # Purpose: GUI Manager for a DistributedPartyTeamActivity
 #===============================================================================
-from pandac.PandaModules import TextNode
+from panda3d.core import TextNode
 
 from direct.gui.DirectButton import DirectButton
 from direct.gui.OnscreenText import OnscreenText

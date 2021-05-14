@@ -1,5 +1,5 @@
-from pandac.PandaModules import Point3 
-from pandac.PandaModules import Vec3
+from panda3d.core import Point3 
+from panda3d.core import Vec3
 import copy
 from toontown.toonbase import TTLocalizer
 

@@ -5,7 +5,7 @@
 # Purpose: Client side of the party hat which is where toon's go to access
 #          public parties.
 #-------------------------------------------------------------------------------
-from pandac.PandaModules import Point3, CollisionSphere, CollisionNode, BitMask32, Vec3, NodePath, TextNode, Vec4
+from panda3d.core import Point3, CollisionSphere, CollisionNode, BitMask32, Vec3, NodePath, TextNode, Vec4
 from otp.otpbase import OTPGlobals
 from otp.otpbase import OTPLocalizer
 from direct.interval.IntervalGlobal import Sequence, Parallel, SoundInterval

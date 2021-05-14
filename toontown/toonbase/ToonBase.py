@@ -9,7 +9,7 @@ from direct.directnotify import DirectNotifyGlobal
 from . import ToontownLoader
 from direct.gui import DirectGuiGlobals
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 import sys
 import os
 from toontown.toonbase import TTLocalizer

@@ -13,10 +13,10 @@
 ##########################################################################
 if __name__ == "__main__":
         from direct.directbase import DirectStart
-from pandac.PandaModules import *    
+from panda3d.core import *    
 from direct.directnotify import DirectNotifyGlobal
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.showbase import DirectObject, PythonUtil
 
 ##########################################################################

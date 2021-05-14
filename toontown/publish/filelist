@@ -134,7 +134,7 @@ forbid_module libp3heapq
 forbid_module libp3direct
 
 # Don't try to import PandaModules here--it's part of Phase3.
-forbid_module pandac.PandaModules
+forbid_module panda3d.core
 
 # Since we need to be able to import Phase3 after we download it, we
 # simply exclude it rather than completely forbid it.
@@ -334,7 +334,7 @@ file 0 $OTP/src/configfiles/gameserver.txt phase_3/etc WIN32,OSX
 # Show code.
 
 # Now it's time to import PandaModules.
-module pandac.PandaModules
+module panda3d.core
 
 # These modules are dynamically loaded by the mint/factory code.
 module toontown.coghq.BossbotCountryClubEntrance_Action00

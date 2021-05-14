@@ -1,6 +1,6 @@
 """DistributedWitchMinnie module: contains the DistributedWitchMinnie class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from . import DistributedCCharBase
 from direct.directnotify import DirectNotifyGlobal
 from direct.fsm import ClassicFSM, State

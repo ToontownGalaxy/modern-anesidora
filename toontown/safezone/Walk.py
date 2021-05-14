@@ -1,7 +1,7 @@
 """Walk state module: contains the walk state which is used by
    multiple FSMs"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.task.Task import Task
 from direct.directnotify import DirectNotifyGlobal
 from direct.fsm import StateData

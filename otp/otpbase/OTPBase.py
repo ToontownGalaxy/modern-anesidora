@@ -3,7 +3,7 @@ OTPBase module: contains the OTPBase class
 """
 
 from direct.showbase.ShowBase import ShowBase
-from pandac.PandaModules import Camera, TPLow, VBase4, ColorWriteAttrib, Filename, getModelPath, NodePath
+from panda3d.core import Camera, TPLow, VBase4, ColorWriteAttrib, Filename, getModelPath, NodePath
 from . import OTPRender
 import time
 import math

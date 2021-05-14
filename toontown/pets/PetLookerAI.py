@@ -1,6 +1,6 @@
 # PetLookerAI
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.directnotify import DirectNotifyGlobal
 from direct.showbase import DirectObject
 from otp.ai.AIZoneData import AIZoneData

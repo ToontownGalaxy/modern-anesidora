@@ -1,6 +1,6 @@
 """ TwoDBlock.py: contains the TwoDBlock class """
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed.ClockDelta import *
 from direct.interval.IntervalGlobal import *
 from direct.fsm import ClassicFSM, State

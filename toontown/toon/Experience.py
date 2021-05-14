@@ -1,6 +1,6 @@
 ### Experience module: contains the Experience class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase.ToontownBattleGlobals import *
 from direct.directnotify import DirectNotifyGlobal
 from direct.distributed.PyDatagram import PyDatagram

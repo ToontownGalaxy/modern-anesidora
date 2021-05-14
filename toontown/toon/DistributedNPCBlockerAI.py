@@ -1,6 +1,6 @@
 
 from otp.ai.AIBaseGlobal import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from .DistributedNPCToonBaseAI import *
 from . import NPCToons
 from direct.task.Task import Task

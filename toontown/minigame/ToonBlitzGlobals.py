@@ -1,5 +1,5 @@
 from toontown.toonbase import ToontownGlobals
-from pandac.PandaModules import BitMask32
+from panda3d.core import BitMask32
 
 ShowScoresDuration = 4. # in seconds, how long to display the player's score 
 

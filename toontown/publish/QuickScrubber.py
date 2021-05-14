@@ -259,7 +259,7 @@ else:
 
 
 from direct.directnotify.DirectNotifyGlobal import *
-from pandac.PandaModules import *
+from panda3d.core import *
 
 # Now that we have PandaModules, make Filename objects for our
 # parameters.

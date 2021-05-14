@@ -3,8 +3,8 @@
 import string
 from otp.otpbase import OTPLocalizer
 from direct.directnotify import DirectNotifyGlobal
-from pandac.PandaModules import NSError
-from pandac.PandaModules import TextEncoder, TextNode
+from panda3d.core import NSError
+from panda3d.core import TextEncoder, TextNode
 
 notify = DirectNotifyGlobal.directNotify.newCategory('NameCheck')
 

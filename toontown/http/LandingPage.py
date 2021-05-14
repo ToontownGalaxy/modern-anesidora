@@ -1,8 +1,8 @@
 import os
 from direct.directnotify.DirectNotifyGlobal import directNotify
-from pandac.PandaModules import VirtualFileSystem
-from pandac.PandaModules import Filename
-from pandac.PandaModules import DSearchPath
+from panda3d.core import VirtualFileSystem
+from panda3d.core import Filename
+from panda3d.core import DSearchPath
 from toontown.toonbase import ElementTree as ET
 from . import LandingPageHTML
 from io import StringIO

@@ -6,7 +6,7 @@ from toontown.ai import DatabaseObject
 from toontown.catalog import CatalogItemList
 from direct.distributed import ClockDelta
 from direct.directnotify.DirectNotifyGlobal import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed.PyDatagram import PyDatagram
 from direct.distributed.PyDatagramIterator import PyDatagramIterator
 

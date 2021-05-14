@@ -10,7 +10,7 @@
 #          DistributedPartyCannonActivity does. 
 #-------------------------------------------------------------------------------
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 from direct.distributed.DistributedObject import DistributedObject
 from direct.task.Task import Task

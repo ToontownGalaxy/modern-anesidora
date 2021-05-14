@@ -1,6 +1,6 @@
 """DistributedCogThiefGame module: contains the DistributedCogThiefGame class"""
 
-from pandac.PandaModules import Point3, CollisionSphere, CollisionNode, \
+from panda3d.core import Point3, CollisionSphere, CollisionNode, \
      CollisionHandlerEvent, NodePath, TextNode
 from direct.distributed.ClockDelta import globalClockDelta
 from direct.interval.IntervalGlobal import Wait, LerpFunctionInterval, \

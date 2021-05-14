@@ -1,6 +1,6 @@
 
 from otp.ai.AIBaseGlobal import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.otpbase import OTPGlobals
 
 from direct.distributed.DistributedObjectUD import DistributedObjectUD

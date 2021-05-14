@@ -21,7 +21,7 @@ import sys
 #ihooks.install()
 
 #if os.getenv('TTMODELS'):
-from pandac.PandaModules import getModelPath, Filename
+from panda3d.core import getModelPath, Filename
     # In the publish environment, TTMODELS won't be on the model
     # path by default, so we always add it there.  In the dev
     # environment, it'll be on the model path already, but it

@@ -1,6 +1,6 @@
 """DistributedDonald module: contains the DistributedDonald class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 from . import DistributedCCharBase
 from direct.directnotify import DirectNotifyGlobal

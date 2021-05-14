@@ -103,8 +103,8 @@ WhisperToFormat = "To %s %s"
 WhisperToFormatName = "To %s"
 WhisperFromFormatName = "%s whispers"
 
-from pandac.PandaModules import TextProperties
-from pandac.PandaModules import TextPropertiesManager
+from panda3d.core import TextProperties
+from panda3d.core import TextPropertiesManager
 
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)

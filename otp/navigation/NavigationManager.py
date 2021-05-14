@@ -8,7 +8,7 @@ import os
 from otp.navigation.AreaMapper import AreaMapper
 from otp.navigation.NavMesh import NavMesh
 from otp.otpbase import OTPGlobals
-from pandac.PandaModules import BitMask32
+from panda3d.core import BitMask32
 from direct.directnotify import DirectNotifyGlobal
 
 
@@ -212,7 +212,7 @@ class NavigationManager(object):
         
 
 def gogogo():
-    from pandac.PandaModules import Filename
+    from panda3d.core import Filename
     from pirates.world.LocationConstants import LocationIds
 
     navpath = os.path.expandvars(config.GetString("navdata-path","$OTP/src/navigation/"))

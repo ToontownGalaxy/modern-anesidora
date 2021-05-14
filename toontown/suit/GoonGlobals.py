@@ -1,4 +1,4 @@
-from pandac.PandaModules import Vec4
+from panda3d.core import Vec4
 
 # pg hat colors
 PG_COLORS = [ Vec4(0.95, 0.0, 0.0, 1.0),

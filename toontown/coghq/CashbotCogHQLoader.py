@@ -9,7 +9,7 @@ from toontown.toon import Toon
 from direct.fsm import State
 from . import CashbotHQExterior
 from . import CashbotHQBossBattle
-from pandac.PandaModules import DecalEffect
+from panda3d.core import DecalEffect
 
 class CashbotCogHQLoader(CogHQLoader.CogHQLoader):
 

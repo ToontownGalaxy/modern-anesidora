@@ -1,7 +1,7 @@
 """ DistributedSuitPlannerAI module:  contains the SuitPlannerAI class which
     handles management of all suits within a single neighborhood."""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed import DistributedObject
 from . import SuitPlannerBase
 from toontown.toonbase import ToontownGlobals

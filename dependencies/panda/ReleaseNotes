@@ -280,7 +280,7 @@ Python API
 * More flexible handling for keyboard arguments in C++ APIs
 * Python bindings are completely separated out of the C++ libraries.
 * Interrogate binding generator has many improvements.
-* Use of pandac.PandaModules is discouraged, use panda3d.core et al
+* Use of panda3d.core is discouraged, use panda3d.core et al
 * Use of libRocket is discouraged due to lack of Python 3 support
 * Tasks are now sorted in addition order when lacking a sort value
 * Fixes iris/fade transitions for extreme aspect ratios
@@ -701,7 +701,7 @@ API features:
 * Improve interfaces for interop with other applications
 
 Deprecated features:
-* Use of pandac.PandaModules is discouraged; use panda3d.core
+* Use of panda3d.core is discouraged; use panda3d.core
 * Deprecate DirectStart and global run() function; use ShowBase
 * Remove old decal system
 * Remove Direct3D 8 renderer
@@ -1551,7 +1551,7 @@ Configuration, installation, and execution environments:
     directories, e.g. "from direct.actor import Actor".
 
   * "from ShowBaseGlobal import *" is replaced with "import
-    direct.directbase.DirectStart" and/or "from pandac.PandaModules
+    direct.directbase.DirectStart" and/or "from panda3d.core
     import *".
 
   * The old "generatePythonCode" script has been replaced with a new

@@ -1,6 +1,6 @@
 from toontown.launcher.ToontownWebLauncher import ToontownWebLauncher
 from direct.showbase.AppRunnerGlobal import appRunner
-from pandac.PandaModules import PandaSystem
+from panda3d.core import PandaSystem
 
 if not appRunner:
     print("Not running in a web environment; using dummyAppRunner.")

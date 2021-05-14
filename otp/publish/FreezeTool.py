@@ -8,7 +8,7 @@ import marshal
 import imp
 
 import direct
-from pandac.PandaModules import *
+from panda3d.core import *
 
 ctprojs = os.getenv("CTPROJS")
 if not ctprojs:

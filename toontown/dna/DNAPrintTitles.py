@@ -4,7 +4,7 @@ out the building titles for each block ID
 """
 
 import direct
-from pandac.PandaModules import *
+from panda3d.core import *
 import time
 
 dnaStorageFiles = [

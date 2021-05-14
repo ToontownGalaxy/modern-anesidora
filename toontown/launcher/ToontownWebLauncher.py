@@ -1,7 +1,7 @@
 import os
 from otp.launcher.WebLauncherBase import WebLauncherBase
 from toontown.toonbase import TTLocalizer
-from pandac.PandaModules import *
+from panda3d.core import *
 
 # it's important to derive from WebLauncherBase first so that Python
 # will find its methods before looking at the old launcher code.

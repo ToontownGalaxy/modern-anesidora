@@ -1,5 +1,5 @@
 import string
-from pandac.PandaModules import *
+from panda3d.core import *
 
 hoodString = base.config.GetString('level-editor-hoods',
                                        'TT DD BR DG DL MM CC CL CM CS GS GZ OZ PA')

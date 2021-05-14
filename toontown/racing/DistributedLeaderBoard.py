@@ -13,7 +13,7 @@ from toontown.racing import KartShopGlobals
 
 #added
 from toontown.toonbase.ToonBaseGlobal import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase.ToontownGlobals import *
 import random
 import pickle

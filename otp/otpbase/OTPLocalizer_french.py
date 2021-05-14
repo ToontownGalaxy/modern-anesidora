@@ -86,8 +86,8 @@ ChangeSecretFriendsOptions = "Changer les options d' amis secrets"
 ChangeSecretFriendsOptionsWarning = "\nMerci d'entrer le mot de passe \"parent\" pour changer les options d' \"amis secrets\"."
 ActivateChatTitle = "Options amis secrets"
 
-from pandac.PandaModules import TextProperties
-from pandac.PandaModules import TextPropertiesManager
+from panda3d.core import TextProperties
+from panda3d.core import TextPropertiesManager
 
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)

@@ -1,6 +1,6 @@
 """DistributedCCharBase module: contains the DistributedCCharBase class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 from otp.avatar import Avatar
 from libotp import CFQuicktalker, CFTimeout, CFSpeech, CFThought

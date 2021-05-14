@@ -6,7 +6,7 @@ in each file at the end
 """
 
 
-from pandac.PandaModules import *
+from panda3d.core import *
 import time
 import pprint
 import os

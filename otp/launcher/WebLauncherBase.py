@@ -1,5 +1,5 @@
 import direct
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.showbase.DirectObject import DirectObject
 from direct.showbase.MessengerGlobal import messenger
 from direct.p3d.PackageInstaller import PackageInstaller

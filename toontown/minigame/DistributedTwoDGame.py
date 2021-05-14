@@ -19,7 +19,7 @@ DistributedTwoDGame controls are a bit complicated and it uses mechanics of
 can just derive from DistributedTwoDGame for any 2D scroller type of game.
 """
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 from toontown.toonbase.ToonBaseGlobal import *
 from toontown.toonbase import TTLocalizer

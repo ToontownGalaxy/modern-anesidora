@@ -1,6 +1,6 @@
 """Place module: contains the Place class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase.ToonBaseGlobal import *
 from direct.showbase.PythonUtil import PriorityCallbacks
 from toontown.toon.Toon import teleportDebug

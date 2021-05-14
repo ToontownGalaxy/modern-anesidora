@@ -1,6 +1,6 @@
 """TwoDEnemy module: contains the TwoDEnemy class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.directnotify import DirectNotifyGlobal
 from direct.showbase.DirectObject import DirectObject
 from direct.showbase import PythonUtil

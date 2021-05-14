@@ -1,6 +1,6 @@
 from direct.distributed import DistributedObjectAI
 from direct.distributed.ClockDelta import *
-from pandac.PandaModules import *
+from panda3d.core import *
 
 class DistributedGagAI(DistributedObjectAI.DistributedObjectAI):
     def __init__(self, air, ownerId, race, activateTime, x, y, z, type):

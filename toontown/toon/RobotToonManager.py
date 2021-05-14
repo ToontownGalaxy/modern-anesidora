@@ -13,7 +13,7 @@ from .RobotToon import *
 from toontown.battle.BattleProps import *
 from direct.gui.DirectGui import *
 from direct.gui import DirectGuiGlobals
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.leveleditor.PieMenu import *
 from direct.directtools.DirectSelection import SelectionRay
 from direct.showbase.TkGlobal import *

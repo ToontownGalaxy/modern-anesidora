@@ -5150,7 +5150,7 @@ PetTutorialPage1 = "Clique sur un Doudou pour afficher le panneau des Doudous. L
 PetTutorialPage2 = "Utilise la nouvelle zone 'Animaux familiers' dans le menu de Chat rapide pour que le Doudou fasse un tour. S'il le fait, récompense-le et il s'améliorera!"
 PetTutorialPage3 = "Achète de nouveaux tours pour les Doudous dans le catalogue de Clarabelle. De meilleures tours donnent de meilleures tooniques!"
 def getPetGuiAlign():
-	from pandac.PandaModules import TextNode
+	from panda3d.core import TextNode
 	return TextNode.ACenter
 
 GardenTutorialTitle1 = "Jardinage"

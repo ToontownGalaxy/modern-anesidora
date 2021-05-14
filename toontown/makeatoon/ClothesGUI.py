@@ -1,10 +1,10 @@
 """ClothesGUI is a base class that contains the clothes picking interface"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toon import ToonDNA
 from direct.fsm import StateData
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from .MakeAToonGlobals import *
 from toontown.toonbase import TTLocalizer
 from direct.directnotify import DirectNotifyGlobal

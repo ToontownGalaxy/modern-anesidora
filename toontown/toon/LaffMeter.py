@@ -1,11 +1,11 @@
 """LaffMeter module: contains the class definition for handling the
 laff-o-meter"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.avatar import DistributedAvatar
 from toontown.toonbase import ToontownGlobals
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 
 class LaffMeter(DirectFrame):

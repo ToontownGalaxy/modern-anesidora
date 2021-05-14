@@ -1,6 +1,6 @@
 """Cog Thief Game Globals used by AI and client versions."""
 
-from pandac.PandaModules import VBase3, BitMask32
+from panda3d.core import VBase3, BitMask32
 
 GameTime = 60
 NumBarrels = 4

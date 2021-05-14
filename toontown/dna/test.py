@@ -2,7 +2,7 @@
 
 
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 # Create a DNA Store
 dnaStore = DNAStorage()

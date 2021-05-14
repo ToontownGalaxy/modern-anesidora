@@ -1,6 +1,6 @@
 """DistributedTargetGame module: contains the DistributedTargetGame class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase.ToonBaseGlobal import *
 from direct.interval.IntervalGlobal import *
 from .DistributedMinigame import *

@@ -4,7 +4,7 @@ The Chat Manager handles all the chat access accross all districts.
 
 from direct.distributed.DistributedObject import DistributedObject
 from direct.distributed.DistributedObjectGlobal import DistributedObjectGlobal
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.otpbase import OTPGlobals
 
 if __debug__:

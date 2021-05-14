@@ -1,5 +1,5 @@
 """DistributedVineGame module: contains the DistributedVineGame class"""
-from pandac.PandaModules import Point3, ForceNode, LinearVectorForce, \
+from panda3d.core import Point3, ForceNode, LinearVectorForce, \
      CollisionHandlerEvent, CollisionNode, CollisionSphere, Camera, \
      PerspectiveLens, Vec4, Point2, ActorNode, Vec3, BitMask32
 from direct.interval.IntervalGlobal import Sequence, Parallel, \

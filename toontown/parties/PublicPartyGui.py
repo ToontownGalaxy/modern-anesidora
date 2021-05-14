@@ -5,7 +5,7 @@
 # Purpose: The public party GUI that pops up when you approach a party gate
 #-------------------------------------------------------------------------------
 
-from pandac.PandaModules import Vec3,Vec4,Point3,TextNode,VBase4
+from panda3d.core import Vec3,Vec4,Point3,TextNode,VBase4
 
 from direct.gui.DirectGui import DGG, DirectFrame,DirectButton,DirectLabel,DirectScrolledList,DirectCheckButton
 from direct.gui import DirectGuiGlobals

@@ -1,7 +1,7 @@
 """LoginGoAccount: Login using a pre-supplied GoReg token from the
 registry, e.g. a DMC 'blue' token."""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed.MsgTypes import *
 from direct.directnotify import DirectNotifyGlobal
 from . import LoginBase
