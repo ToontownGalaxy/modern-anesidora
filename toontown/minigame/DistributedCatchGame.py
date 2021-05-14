@@ -1,6 +1,6 @@
 """DistributedCatchGame module: contains the DistributedCatchGame class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase.ToonBaseGlobal import *
 from .DistributedMinigame import *
 from direct.interval.IntervalGlobal import *

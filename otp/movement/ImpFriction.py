@@ -1,4 +1,4 @@
-from pandac.PandaModules import *
+from panda3d.core import *
 from . import Impulse
 
 class ImpFriction(Impulse.Impulse):

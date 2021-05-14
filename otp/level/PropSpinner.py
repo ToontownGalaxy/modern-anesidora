@@ -2,7 +2,7 @@
 import string
 from direct.interval.IntervalGlobal import * 
 from .Entity import Entity
-from pandac.PandaModules import Vec3
+from panda3d.core import Vec3
 
 class PropSpinner(Entity):
     def __init__(self, level, entId):

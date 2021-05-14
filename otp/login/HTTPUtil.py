@@ -1,6 +1,6 @@
 """HTTPUtil.py: contains HTTP transaction utility functions"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 class HTTPUtilException(Exception):
     def __init__(self, what): Exception.__init__(self, what)

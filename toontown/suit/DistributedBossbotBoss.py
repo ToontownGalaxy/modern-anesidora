@@ -1,6 +1,6 @@
 import math
 import random
-from pandac.PandaModules import  VBase3, CollisionPlane, \
+from panda3d.core import  VBase3, CollisionPlane, \
      CollisionNode, CollisionSphere, CollisionTube, NodePath, Plane, Vec3, Vec2,\
      Point3, BitMask32, CollisionHandlerEvent, TextureStage, VBase4, BoundingSphere
 from direct.interval.IntervalGlobal import Sequence, Wait, Func, LerpHprInterval, \

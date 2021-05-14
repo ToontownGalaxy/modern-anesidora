@@ -2,13 +2,13 @@
     class which represents the client version of the round,
     spinning piano in Minnie's Melodyland safezone."""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.task.Task import Task
 from direct.distributed.ClockDelta import *
 from direct.interval.IntervalGlobal import *
 
 from direct.distributed import DistributedObject
-from pandac.PandaModules import NodePath
+from panda3d.core import NodePath
 from toontown.toonbase import ToontownGlobals
 
 # This is the amount of time, in seconds, that must elapse between two

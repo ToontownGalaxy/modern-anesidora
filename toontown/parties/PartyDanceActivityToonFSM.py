@@ -8,7 +8,7 @@
 #          (such that up is always away from the camera and controls are orthogonal)
 #-------------------------------------------------------------------------------
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 from direct.fsm.FSM import FSM
 from direct.showbase import PythonUtil

@@ -1,7 +1,7 @@
 # This file defines the downloadable packages that make up the
 # published version of Disney's Toontown Online.
 
-from pandac.PandaModules import Filename, PandaSystem
+from panda3d.core import Filename, PandaSystem
 from direct.showutil import FreezeTool
 FreezeTool.sourceTrees = ['toontown', 'otp', 'direct']
 from toontown.publish import PRCEncryptionKey

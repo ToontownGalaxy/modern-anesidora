@@ -1,10 +1,10 @@
 """OptionsPage module: contains the OptionsPage class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from . import ShtikerPage
 from toontown.toontowngui import TTDialog
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase import TTLocalizer
 from . import DisplaySettingsDialog
 from direct.task import Task

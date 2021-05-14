@@ -2,7 +2,7 @@
 import datetime
 import time
 import functools
-from pandac.PandaModules import TextNode, Vec3, Vec4, PlaneNode, Plane, \
+from panda3d.core import TextNode, Vec3, Vec4, PlaneNode, Plane, \
      Point3
 from direct.gui.DirectGui import DirectFrame, DirectLabel, DirectButton, \
      DirectScrolledList, DGG

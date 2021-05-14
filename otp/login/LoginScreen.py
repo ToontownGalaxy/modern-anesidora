@@ -5,7 +5,7 @@ import time
 import json
 from datetime import datetime
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 from direct.distributed.MsgTypes import *
 from direct.gui.DirectGui import *

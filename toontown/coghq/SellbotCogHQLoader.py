@@ -11,7 +11,7 @@ from . import FactoryExterior
 from . import FactoryInterior
 from . import SellbotHQExterior
 from . import SellbotHQBossBattle
-from pandac.PandaModules import DecalEffect
+from panda3d.core import DecalEffect
 
 # Used to compensate for scaling of Cog tunnel sign's
 # original aspect ratio of 1125x813 to a uniform ratio,

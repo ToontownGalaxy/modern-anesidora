@@ -2,7 +2,7 @@
     class which represents the client version of the round,
     spinning flower in Daisy's Garden safezone."""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed.ClockDelta import *
 
 from direct.distributed import DistributedObject

@@ -5,7 +5,7 @@ from direct.fsm import State
 from toontown.hood import Place
 from toontown.building import Elevator
 from toontown.toonbase import ToontownGlobals
-from pandac.PandaModules import *
+from panda3d.core import *
 from libotp import *
 class CogHQLobby(Place.Place):
     # create a notify category

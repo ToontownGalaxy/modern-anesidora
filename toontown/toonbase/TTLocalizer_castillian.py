@@ -5865,7 +5865,7 @@ PetTutorialPage1 = "Haz clic en un Dibuperrito para abrir el panel Dibuperrito. 
 PetTutorialPage2 = "Utiliza la nueva zona 'Mascotas' en el menú SpeedChat para hacer que un Doodle haga una acrobacia. Si la hace, ¡dale un premio y aprenderá a hacerlo mejor!"
 PetTutorialPage3 = "Compra nuevas acrobacias para el Dibuperrito desde el catálogo tolón-tolón de Clarabel. ¡Las mejores acrobacias dan mejores curadibus!"
 def getPetGuiAlign():
-	from pandac.PandaModules import TextNode
+	from panda3d.core import TextNode
 	return TextNode.ACenter
 
 GardenTutorialTitle1 = "Jardinería"

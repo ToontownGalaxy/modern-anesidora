@@ -2,7 +2,7 @@
 
 from . import Entity
 from . import DistributedEntity
-from pandac.PandaModules import NodePath
+from panda3d.core import NodePath
 
 # base class for entities that support NodePath attributes
 # *** Don't derive directly from this class; derive from the appropriate

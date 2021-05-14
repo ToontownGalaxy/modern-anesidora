@@ -1,5 +1,5 @@
 import math
-from pandac.PandaModules import Point3, CollisionSphere, CollisionNode, \
+from panda3d.core import Point3, CollisionSphere, CollisionNode, \
      CollisionHandlerEvent, TextNode, VBase4, SmoothMover, NodePath, BitMask32
 from direct.fsm import FSM
 from direct.distributed import DistributedObject

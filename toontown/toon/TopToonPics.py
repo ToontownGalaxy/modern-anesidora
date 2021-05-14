@@ -5,7 +5,7 @@ from direct.directtools.DirectUtil import getFileData
 from direct.distributed.PyDatagram import PyDatagram
 from math import tan
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 try:
     builtins.launcher

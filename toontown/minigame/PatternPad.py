@@ -1,8 +1,8 @@
 """PatternPad module: contains the PatternPad class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 
 class PatternPad(DirectFrame):
     """PatternPad class: pad used by the pattern matching game

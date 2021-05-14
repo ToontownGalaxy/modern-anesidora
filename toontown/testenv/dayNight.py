@@ -1,4 +1,4 @@
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 
 dayMusic = loader.loadMusic("phase_4/audio/bgm/TC_nbrhood.ogg")

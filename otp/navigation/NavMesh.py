@@ -8,17 +8,17 @@ import io
 
 # File I/O stuff
 import direct
-from pandac.PandaModules import VirtualFileSystem
-from pandac.PandaModules import Filename
-from pandac.PandaModules import DSearchPath
+from panda3d.core import VirtualFileSystem
+from panda3d.core import Filename
+from panda3d.core import DSearchPath
 
 # Visualization stuff
-from pandac.PandaModules import GeomVertexFormat
-from pandac.PandaModules import GeomVertexData
-from pandac.PandaModules import GeomVertexWriter
-from pandac.PandaModules import GeomLinestrips
-from pandac.PandaModules import Geom
-from pandac.PandaModules import GeomNode
+from panda3d.core import GeomVertexFormat
+from panda3d.core import GeomVertexData
+from panda3d.core import GeomVertexWriter
+from panda3d.core import GeomLinestrips
+from panda3d.core import Geom
+from panda3d.core import GeomNode
 
 from otp.navigation.NavUtil import PriQueue
 from otp.navigation.NavUtil import FIFOCache
@@ -26,13 +26,13 @@ from otp.navigation.NavUtil import FIFOCache
 from libotp import PathTable
 
 # Node locator collision stuff
-from pandac.PandaModules import BitMask32
-from pandac.PandaModules import CollisionSphere
-from pandac.PandaModules import CollisionPolygon
-from pandac.PandaModules import CollisionRay
-from pandac.PandaModules import CollisionNode
-from pandac.PandaModules import CollisionHandlerQueue
-from pandac.PandaModules import CollisionTraverser
+from panda3d.core import BitMask32
+from panda3d.core import CollisionSphere
+from panda3d.core import CollisionPolygon
+from panda3d.core import CollisionRay
+from panda3d.core import CollisionNode
+from panda3d.core import CollisionHandlerQueue
+from panda3d.core import CollisionTraverser
 
 from otp.otpbase import OTPGlobals
 

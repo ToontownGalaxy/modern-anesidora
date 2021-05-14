@@ -1,6 +1,6 @@
 import random
 import math
-from pandac.PandaModules import Point3
+from panda3d.core import Point3
 from direct.directnotify import DirectNotifyGlobal
 from direct.fsm import FSM
 from direct.interval.IntervalGlobal import LerpPosInterval

@@ -44,7 +44,7 @@ else:
     
 #persistDirectory = '/c/ttown-persist/english'
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.directnotify.DirectNotifyGlobal import *
 
 # create a DirectNotify category for the Launcher

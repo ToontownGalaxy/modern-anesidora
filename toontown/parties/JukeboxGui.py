@@ -9,7 +9,7 @@
 #          played next. This gui is controlled by DistributedJukeboxActivity.
 #-------------------------------------------------------------------------------
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 from direct.showbase.DirectObject import DirectObject
 from direct.gui.DirectGui import DirectFrame, DirectButton, DirectLabel

@@ -5883,7 +5883,7 @@ PetTutorialPage1 = "ドゥードゥルをクリックすると、ドゥードゥ
 PetTutorialPage2 = "ドゥードゥルに「トリック」をさせたければ、スピードチャットの「ペット」の項目を使ってね。 「トリック」をしたら、ちゃんとごほうびをあげればごきげんになるよ。"
 PetTutorialPage3 = "クララベルのショッピングカタログからドゥードゥルの新しい「トリック」を買ってね。 より良い「トリック」はより多くのトゥーンアップができるよ。"
 def getPetGuiAlign():
-	from pandac.PandaModules import TextNode
+	from panda3d.core import TextNode
 	return TextNode.ALeft
 
 GardenTutorialTitle1 = "ガーデニング" #localize

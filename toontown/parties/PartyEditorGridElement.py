@@ -5,7 +5,7 @@
 # Purpose: PartyEditorGridElements are placed on PartyEditorGridSquares
 #-------------------------------------------------------------------------------
 
-from pandac.PandaModules import Vec3,Vec4,Point3,TextNode,VBase4,NodePath
+from panda3d.core import Vec3,Vec4,Point3,TextNode,VBase4,NodePath
 
 from direct.gui.DirectGui import DirectFrame,DirectButton,DirectLabel,DirectScrolledList,DirectCheckButton
 from direct.gui import DirectGuiGlobals

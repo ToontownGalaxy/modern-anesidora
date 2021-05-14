@@ -1,7 +1,7 @@
 """ DistributedInteractiveEntity module: contains the DistributedInteractiveEntity
     class, the client side representation of a 'landmark door'."""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed.ClockDelta import *
 
 from direct.directnotify import DirectNotifyGlobal

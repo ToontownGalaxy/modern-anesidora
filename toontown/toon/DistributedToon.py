@@ -1,5 +1,5 @@
 """DistributedToon module: contains the DistributedToon class"""
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase.ToontownGlobals import *
 from direct.distributed.ClockDelta import *
 from direct.interval.IntervalGlobal import *

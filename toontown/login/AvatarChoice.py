@@ -1,6 +1,6 @@
 """AvatarChoice module: contains the AvatarChoice class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.toonbase import ToontownGlobals
 from direct.showbase import DirectObject
 from toontown.toon import ToonDNA

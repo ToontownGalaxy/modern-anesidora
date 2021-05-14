@@ -1,4 +1,4 @@
-from pandac.PandaModules import WindowProperties
+from panda3d.core import WindowProperties
 from direct.showbase import ShowBase
 
 class ShowBaseAI(ShowBase.ShowBase):

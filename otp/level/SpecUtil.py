@@ -1,7 +1,7 @@
 """SpecUtil module: contains utility functions for creating and managing level specs"""
 
 import direct.directbase.DirectStart
-from pandac.PandaModules import *
+from panda3d.core import *
 from . import LevelSpec
 from . import LevelConstants
 from . import LevelUtil

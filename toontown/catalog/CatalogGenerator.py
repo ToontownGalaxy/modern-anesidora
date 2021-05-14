@@ -25,7 +25,7 @@ from toontown.toonbase import ToontownGlobals
 import types
 import random
 import time
-from pandac.PandaModules import *
+from panda3d.core import *
 
 # Index numbers that stand for catalog items within this file,
 # e.g. for MetaItems, are local to this file only.  These index

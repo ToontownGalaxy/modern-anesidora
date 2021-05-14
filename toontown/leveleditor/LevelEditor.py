@@ -1,5 +1,5 @@
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.directbase.DirectStart import *
 from direct.showbase.DirectObject import DirectObject
 from .PieMenu import *

@@ -10,7 +10,7 @@ from toontown.effects import Ripples
 import random
 from direct.showbase.DirectObject import DirectObject
 from direct.gui.DirectGui import *
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 from direct.directtools.DirectGeometry import LineNodePath
 

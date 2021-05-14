@@ -1,5 +1,5 @@
 """ In-Game Editor/Control Panel module """
-from pandac.PandaModules import Point3, Vec3, VBase3
+from panda3d.core import Point3, Vec3, VBase3
 from direct.tkwidgets.AppShell import *
 from direct.showbase.TkGlobal import *
 from direct.tkwidgets.Tree import *

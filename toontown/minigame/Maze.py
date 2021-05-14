@@ -1,5 +1,5 @@
 """Maze module: contains the Maze class"""
-from pandac.PandaModules import VBase3
+from panda3d.core import VBase3
 
 from toontown.toonbase.ToonBaseGlobal import *
 

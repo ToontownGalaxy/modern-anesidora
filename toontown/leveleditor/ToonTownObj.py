@@ -2,7 +2,7 @@
 Base class for toontown objects
 """
 import random
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.leveleditor import ObjectGlobals as OG
 from .LevelStyleManager import *
 

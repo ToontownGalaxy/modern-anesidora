@@ -1,5 +1,5 @@
 """IceTreasure module: contains the IceTreasure class"""
-from pandac.PandaModules import Point3, CollisionSphere, CollisionNode, BitMask32
+from panda3d.core import Point3, CollisionSphere, CollisionNode, BitMask32
 from direct.interval.IntervalGlobal import Sequence, LerpScaleInterval, \
      Parallel, Func, SoundInterval
 from direct.directnotify import DirectNotifyGlobal

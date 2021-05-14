@@ -1,7 +1,7 @@
 # RAU modified from pirates
 from toontown.toonbase import TTLocalizer
 from toontown.toonbase import ToontownBattleGlobals
-from pandac.PandaModules import Vec4
+from panda3d.core import Vec4
 # For dealing
 Up = 1
 Down = 0

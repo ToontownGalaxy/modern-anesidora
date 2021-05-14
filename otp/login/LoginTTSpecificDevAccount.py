@@ -1,6 +1,6 @@
 """LoginGSAccount: Login using the original Game Server method"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed.MsgTypes import *
 from direct.directnotify import DirectNotifyGlobal
 from . import LoginTTAccount

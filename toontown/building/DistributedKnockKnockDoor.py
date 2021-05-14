@@ -3,7 +3,7 @@ DistributedKnockKnockDoor module: contains the DistributedKnockKnockDoor
 class, the client side representation of a DistributedKnockKnockDoorAI.
 """
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.interval.IntervalGlobal import *
 from direct.distributed.ClockDelta import *
 

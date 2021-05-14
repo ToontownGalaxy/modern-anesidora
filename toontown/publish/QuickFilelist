@@ -139,7 +139,7 @@ forbid_module libp3heapq
 forbid_module libp3direct
 
 # Don't try to import PandaModules here--it's part of Phase3.
-forbid_module pandac.PandaModules
+forbid_module panda3d.core
 
 exclude_module Phase2
 exclude_module Phase3
@@ -155,7 +155,7 @@ file 0 $OTP/src/configfiles/otp.dc phase_3/etc WIN32,OSX
 # Show code.
 
 # Now it's time to import PandaModules.
-module pandac.PandaModules
+module panda3d.core
 
 # These modules are dynamically loaded by the mint/factory code.
 

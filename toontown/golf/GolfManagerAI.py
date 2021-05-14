@@ -3,7 +3,7 @@ from direct.showbase import DirectObject
 from direct.directnotify import DirectNotifyGlobal
 from toontown.toonbase import ToontownGlobals
 from toontown.golf import DistributedGolfCourseAI
-from pandac.PandaModules import *
+from panda3d.core import *
 
 # This map is only used for support of the magic word ~golf hole
 RequestHole = {}

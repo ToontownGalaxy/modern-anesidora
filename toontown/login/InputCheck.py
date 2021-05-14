@@ -1,6 +1,6 @@
 """InputCheck module: contains the InputCheck class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 import string
 
 def isValidEmailAddr(addr):

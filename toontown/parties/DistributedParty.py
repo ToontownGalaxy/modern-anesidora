@@ -9,7 +9,7 @@ import random
 import time
 import datetime
 
-from pandac.PandaModules import Vec4, TextNode, CardMaker, NodePath
+from panda3d.core import Vec4, TextNode, CardMaker, NodePath
 
 from direct.distributed import DistributedObject
 from direct.task.Task import Task

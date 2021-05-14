@@ -2,7 +2,7 @@
 #1. the ability for this to have distributed movement (created by AI, controlled by AI)
 #2. The ability to move onto the curve
 #3. The ability to move off the curve to hit a player.
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.distributed import DistributedSmoothNodeAI
 
 

@@ -3920,7 +3920,7 @@ PetTutorialPage1 = "Wenn du auf ein Doodle klickst, wird das Doodle-Menü angeze
 PetTutorialPage2 = "Mit dem neuen Bereich 'Haustiere' im Schnell-Chat kannst du ein Doodle dazu bringen, einen Trick vorzuführen. Wenn es das tut, gib ihm eine Belohnung, dann wird es noch besser!"
 PetTutorialPage3 = "Kaufe neue Doodle-Tricks aus Klarabellas Kuhtalog. Bessere Tricks bringen besseres Toonen!"
 def getPetGuiAlign():
-	from pandac.PandaModules import TextNode
+	from panda3d.core import TextNode
 	return TextNode.ACenter 
 
 # Playground.py

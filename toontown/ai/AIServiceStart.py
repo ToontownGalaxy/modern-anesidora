@@ -127,7 +127,7 @@ logErr = LogAndOutput(sys.__stderr__, log)
 sys.stdout = logOut
 sys.stderr = logErr
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 # Give Panda the same log we use
 nout = MultiplexStream()

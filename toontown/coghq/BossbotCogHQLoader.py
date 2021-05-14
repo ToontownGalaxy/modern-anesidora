@@ -11,7 +11,7 @@ from toontown.coghq import BossbotHQExterior
 from toontown.coghq import BossbotHQBossBattle
 from toontown.coghq import BossbotOfficeExterior
 from toontown.coghq import CountryClubInterior
-from pandac.PandaModules import DecalEffect, TextEncoder
+from panda3d.core import DecalEffect, TextEncoder
 import random
 
 # Used to compensate for scaling of Cog tunnel sign's

@@ -10,7 +10,7 @@
 # z-order bottom
 
 
-from pandac.PandaModules import *
+from panda3d.core import *
 
 background = loader.loadModel('phase_3/models/gui/loading-background').find("**/bg")
 background.reparentTo(render)

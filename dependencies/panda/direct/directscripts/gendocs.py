@@ -573,14 +573,14 @@ class CodeDatabase:
                     self.types[type.scopedname] = type
                 if (type.flags & 8192) and (type.atomictype == 0) and (type.scopedname.count(" ")==0) and (type.scopedname.count(":")==0):
                     self.goodtypes[type.scopedname] = type
-                    self.typeExports.setdefault("pandac.PandaModules", []).append(type.scopedname)
+                    self.typeExports.setdefault("panda3d.core", []).append(type.scopedname)
             for func in idb.functions.values():
                 type = idb.types.get(func.classindex)
                 func.pyname = convertToPythonFn(func.componentname)
                 if (type == None):
                     self.funcs["GLOBAL."+func.pyname] = func
                     self.globalfn.append("GLOBAL."+func.pyname)
-                    self.funcExports.setdefault("pandac.PandaModules", []).append(func.pyname)
+                    self.funcExports.setdefault("panda3d.core", []).append(func.pyname)
                 else:
                     self.funcs[type.scopedname+"."+func.pyname] = func
         print("Reading Python sources files")
@@ -658,7 +658,7 @@ class CodeDatabase:
     def getClassImport(self, cn):
         type = self.types.get(cn)
         if (isinstance(type, InterrogateType)):
-            return "pandac.PandaModules"
+            return "panda3d.core"
         else:
             return pathToModule(type.file)
 
@@ -699,7 +699,7 @@ class CodeDatabase:
     def getFunctionImport(self, fn):
         func = self.funcs.get(fn)
         if (isinstance(func, InterrogateFunction)):
-            return "pandac.PandaModules"
+            return "panda3d.core"
         else:
             return pathToModule(func.file)
 

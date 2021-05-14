@@ -5,9 +5,9 @@
 # Purpose: DistributedPartyActivity is the base class for all party activities.
 #          It loads up the sign and lever (where applicable)
 #-------------------------------------------------------------------------------
-#from pandac.PandaModules import VBase4
-from pandac.PandaModules import CollisionSphere, CollisionNode, CollisionTube
-from pandac.PandaModules import TextNode, NodePath, Vec3, Point3
+#from panda3d.core import VBase4
+from panda3d.core import CollisionSphere, CollisionNode, CollisionTube
+from panda3d.core import TextNode, NodePath, Vec3, Point3
 
 from direct.distributed.ClockDelta import globalClockDelta
 #from direct.gui.DirectGui import DirectLabel

@@ -1,6 +1,6 @@
 """MazeSuit module: contains the CogThief class"""
 import math
-from pandac.PandaModules import CollisionSphere, CollisionNode, Point3, CollisionTube, \
+from panda3d.core import CollisionSphere, CollisionNode, Point3, CollisionTube, \
      Vec3, rad2Deg
 from direct.showbase.DirectObject import DirectObject
 from direct.distributed.ClockDelta import globalClockDelta

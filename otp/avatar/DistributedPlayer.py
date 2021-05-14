@@ -1,6 +1,6 @@
 """DistributedPlayer module: contains the DistributedPlayer class"""
 
-from pandac.PandaModules import *
+from panda3d.core import *
 from libotp import WhisperPopup
 from libotp import CFQuicktalker, CFPageButton, CFQuitButton, CFSpeech, CFThought, CFTimeout
 from otp.chat import ChatGarbler

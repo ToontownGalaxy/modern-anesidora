@@ -1,5 +1,5 @@
 from toontown.toonbase import ToontownGlobals
-from pandac.PandaModules import BitMask32
+from panda3d.core import BitMask32
 
 NumVines = 20 # how many vines in the game
 GameDuration = 70 # in seconds how long does the game last

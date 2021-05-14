@@ -5,7 +5,7 @@ from toontown.toon import DistributedToonAI
 from toontown.estate import DistributedHouseAI
 from toontown.pets import DistributedPetAI
 from toontown.toon import InventoryBase
-from pandac.PandaModules import *
+from panda3d.core import *
 from toontown.quest import Quests
 from toontown.toon import NPCToons
 import time

@@ -1,5 +1,5 @@
 import os
-from pandac.PandaModules import *
+from panda3d.core import *
 from direct.showbase import AppRunnerGlobal
 from otp.chat.WhiteList import WhiteList
 from toontown.toonbase import TTLocalizer

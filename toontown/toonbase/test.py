@@ -1,14 +1,14 @@
 #
 #imports
 #
-from pandac.PandaModules import *
+from panda3d.core import *
 from otp.avatar import Avatar
 from otp.avatar import AvatarDNA
 from direct.task import Task
 from direct.showbase.MessengerGlobal import *
 import sys
-from pandac.PandaModules import ClockObject
-from pandac.PandaModules import PStatClient
+from panda3d.core import ClockObject
+from panda3d.core import PStatClient
 from ChatManagerGlobal import *
 #
 # globals
